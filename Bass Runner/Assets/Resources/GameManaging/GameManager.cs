@@ -61,8 +61,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        tileContainer = GameObject.Find("TileContainer");
-        coinContainer = GameObject.Find("CoinContainer");
+        tileContainer = GameObject.Find("Bye");
+        coinContainer = GameObject.Find("Hello");
 
         GenerateTiles();
         SetupPlayer();
